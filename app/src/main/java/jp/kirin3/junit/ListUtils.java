@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ListUtils {
 
-    public StatusResult getActiveAndCompletedStatus(List<Task> tasks){
+    public static StatusResult getActiveAndCompletedStatus(List<Task> tasks){
         if(tasks == null || tasks.isEmpty()){
             return new StatusResult(0f,0f);
         }
